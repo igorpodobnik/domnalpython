@@ -2,13 +2,12 @@
 __author__ = 'Igor'
 #spremenim v float,zaradi deljenja
 
-pogoj = "n"
+pogoj = "d"
 rezultat = 0
-while pogoj == "n":
+while pogoj == "d":
     x = input("Vnesi prvo stevilko: ")
     y = input("Vnesi drugo stevilko: ")
-    x = x + 0.0
-    y = y + 0.0
+
     print("Pritisni V za vsoto")
     print("Pritisni R za razliko")
     print("Pritisni P za produkt")
@@ -22,7 +21,10 @@ while pogoj == "n":
     if operacija == "p":
         rezultat = x * y
     if operacija == "d":
+        x = x + 0.0
+        y = y + 0.0
         rezultat = x/y
+
     print ("Vas rezultat je: %s" % rezultat)
-    pogoj = raw_input("Ce zelite koncati pritisnite N: ").lower()
+    pogoj = raw_input("Ce zelite nadaljevati pritisnite D: ").lower()
 
