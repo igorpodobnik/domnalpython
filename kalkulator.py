@@ -13,15 +13,15 @@ while hoces == True:
     print("Pritisni R za razliko")
     print("Pritisni P za produkt")
     print("Pritisni D za deljenje")
-    operacija = raw_input("Vasa izbira je: ")
+    operacija = raw_input("Vasa izbira je: ").lower()
 
-    if operacija == "R" or operacija == "r":
+    if operacija == "r":
         rezultat =  x - y
-    if operacija == "v" or operacija == "V":
+    if operacija == "v":
         rezultat = x + y
-    if operacija == "p" or operacija == "P":
+    if operacija == "p":
         rezultat = x * y
-    if operacija == "d" or operacija == "D":
+    if operacija == "d":
         rezultat = x/y
     print ("Vas rezultat je: %s" % rezultat)
     pogoj =  raw_input("Ce zelite koncati pritisnite N: ")
