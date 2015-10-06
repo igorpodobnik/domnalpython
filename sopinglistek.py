@@ -1,6 +1,6 @@
 __author__ = 'Igor'
 # -*- coding: utf-8 -*-
-
+import os
 
 list = []
 i=0
