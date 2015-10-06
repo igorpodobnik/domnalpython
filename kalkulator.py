@@ -5,8 +5,20 @@ __author__ = 'Igor'
 pogoj = "d"
 rezultat = 0
 while pogoj == "d":
-    x = input("Vnesi prvo stevilko: ")
-    y = input("Vnesi drugo stevilko: ")
+    x = raw_input("Vnesi prvo stevilko: ")
+    while 1 == 1:
+        if x.isdigit():
+            x = int(x)
+            break
+        else:
+            x = raw_input("Ni stevilka, probi se enkrat: ")
+    y = raw_input("Vnesi drugo stevilko: ")
+    while 1 == 1:
+        if y.isdigit():
+            y = int(y)
+            break
+        else:
+            y = raw_input("Ni stevilka, probi se enkrat: ")
 
     print("Pritisni V za vsoto")
     print("Pritisni R za razliko")
