@@ -41,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fuzzbizz.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fuzzbizz.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuzzbizz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67105263">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uganistevilko.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uganistevilko.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7631579">
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,6 +76,7 @@
         <option value="$PROJECT_DIR$/CSI.py" />
         <option value="$PROJECT_DIR$/kalkulator.py" />
         <option value="$PROJECT_DIR$/fuzzbizz.py" />
+        <option value="$PROJECT_DIR$/uganistevilko.py" />
       </list>
     </option>
   </component>
@@ -345,8 +356,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fuzzbizz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67105263">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uganistevilko.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7631579">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
         </state>
       </provider>
