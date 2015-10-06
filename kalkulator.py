@@ -36,11 +36,11 @@ while pogoj == "d":
 
     if operacija == "r":
         rezultat =  x - y
-    if operacija == "v":
+    elif operacija == "v":
         rezultat = x + y
-    if operacija == "p":
+    elif operacija == "p":
         rezultat = x * y
-    if operacija == "d":
+    elif operacija == "d":
         x = x + 0.0
         y = y + 0.0
         rezultat = x/y
