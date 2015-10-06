@@ -1,6 +1,15 @@
 __author__ = 'Igor'
 
-x = input("Vnesite tevilko od 1 do 100: ")
+#x = input("Vnesite tevilko od 1 do 100: ")
+x = raw_input("Vnesite tevilko od 1 do 100: ")
+vmes = 0
+while vmes == 0:
+    if x.isdigit():
+        x = int(x)
+        break
+    else:
+        x = raw_input("Ponovite vajo! Vnesite tevilko od 1 do 100: ")
+
 if x > 100:
     x = 100
     print("Stevilka prevelika, nastavljena na 100")
