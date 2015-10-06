@@ -21,6 +21,7 @@ while pogoj == "d":
         else:
             y = raw_input("Ni stevilka, probi se enkrat: ")
 
+
     print("Pritisni V za vsoto")
     print("Pritisni R za razliko")
     print("Pritisni P za produkt")
@@ -41,6 +42,7 @@ while pogoj == "d":
     elif operacija == "p":
         rezultat = x * y
     elif operacija == "d":
+        # DODAJ CE JE NICLA
         x = x + 0.0
         y = y + 0.0
         rezultat = x/y
