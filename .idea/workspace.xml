@@ -34,8 +34,8 @@
       <file leaf-file-name="kalkulator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kalkulator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.43421054">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.67105263">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -55,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/vreme.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/CSI.py" />
         <option value="$PROJECT_DIR$/uganistevilko.py" />
         <option value="$PROJECT_DIR$/git.sh" />
-        <option value="$PROJECT_DIR$/vreme.py" />
         <option value="$PROJECT_DIR$/fuzzbizz.py" />
+        <option value="$PROJECT_DIR$/vreme.py" />
         <option value="$PROJECT_DIR$/kalkulator.py" />
       </list>
     </option>
@@ -359,6 +359,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="955c1a07-3b19-402b-82bd-d582efaa1b3d" name="Default" comment="" />
@@ -430,7 +433,7 @@
     <entry file="file://$PROJECT_DIR$/vreme.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -445,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kalkulator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.43421054">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.67105263">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -4,6 +4,7 @@ __author__ = 'Igor'
 
 pogoj = "d"
 rezultat = 0
+izbire = ["v","r","p","d"]
 while pogoj == "d":
     x = raw_input("Vnesi prvo stevilko: ")
     while 1 == 1:
@@ -25,6 +26,13 @@ while pogoj == "d":
     print("Pritisni P za produkt")
     print("Pritisni D za deljenje")
     operacija = raw_input("Vasa izbira je: ").lower()
+    while 1==1:
+        if operacija in izbire:
+            break
+        else:
+            operacija = raw_input("Dej dej, se enkrat probaj, V, R, P ali D: ")
+
+
 
     if operacija == "r":
         rezultat =  x - y
