@@ -2,9 +2,9 @@
 __author__ = 'Igor'
 #spremenim v float,zaradi deljenja
 
-hoces = True
+pogoj = "n"
 rezultat = 0
-while hoces == True:
+while pogoj == "n":
     x = input("Vnesi prvo stevilko: ")
     y = input("Vnesi drugo stevilko: ")
     x = x + 0.0
@@ -24,6 +24,5 @@ while hoces == True:
     if operacija == "d":
         rezultat = x/y
     print ("Vas rezultat je: %s" % rezultat)
-    pogoj =  raw_input("Ce zelite koncati pritisnite N: ")
-    if pogoj == "n" or pogoj == "N":
-        break
+    pogoj = raw_input("Ce zelite koncati pritisnite N: ").lower()
+
