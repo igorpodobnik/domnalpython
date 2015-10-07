@@ -17,7 +17,7 @@ while i == 1:
 
         break
 if hoces == "d":
-    print("")
+    print "\n" * 20
     print("Vas seznam vsebuje:")
     for i in list:
         print i
