@@ -81,11 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sopinglistek.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sopinglistek.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sopinglistek.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5263158">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uganiprestolnico.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uganiprestolnico.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23684211">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -111,6 +121,7 @@
         <option value="$PROJECT_DIR$/kalkulator.py" />
         <option value="$PROJECT_DIR$/clear.py" />
         <option value="$PROJECT_DIR$/sopinglistek.py" />
+        <option value="$PROJECT_DIR$/uganiprestolnico.py" />
       </list>
     </option>
   </component>
@@ -183,7 +194,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.sopinglistek">
+  <component name="RunManager" selected="Python.uganiprestolnico">
     <configuration default="false" name="fuzzbizz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,23 +229,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="vreme" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vreme.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="clear" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,6 +259,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sopinglistek.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="uganiprestolnico" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uganiprestolnico.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -394,17 +405,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.fuzzbizz" />
       <item index="1" class="java.lang.String" itemvalue="Python.kalkulator" />
-      <item index="2" class="java.lang.String" itemvalue="Python.vreme" />
-      <item index="3" class="java.lang.String" itemvalue="Python.clear" />
-      <item index="4" class="java.lang.String" itemvalue="Python.sopinglistek" />
+      <item index="2" class="java.lang.String" itemvalue="Python.clear" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sopinglistek" />
+      <item index="4" class="java.lang.String" itemvalue="Python.uganiprestolnico" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.sopinglistek" />
-        <item index="1" class="java.lang.String" itemvalue="Python.clear" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kalkulator" />
-        <item index="3" class="java.lang.String" itemvalue="Python.fuzzbizz" />
-        <item index="4" class="java.lang.String" itemvalue="Python.vreme" />
+        <item index="0" class="java.lang.String" itemvalue="Python.uganiprestolnico" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sopinglistek" />
+        <item index="2" class="java.lang.String" itemvalue="Python.clear" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kalkulator" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fuzzbizz" />
       </list>
     </recent_temporary>
   </component>
@@ -472,14 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vreme.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fuzzbizz.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -520,10 +523,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vreme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sopinglistek.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5263158">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uganiprestolnico.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23684211">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
         </state>
       </provider>
