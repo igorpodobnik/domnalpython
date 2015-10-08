@@ -205,8 +205,8 @@ goljuf = 0
 falil = 0
 while 1==1:
     random_key = random.sample(prestolnice, 1)[0]
-    print random_key
-    print prestolnice[random_key]
+    #print random_key
+    #print prestolnice[random_key]
     vnos = raw_input("Vnesti prestolnico od -- %s --, pazi na velike zacetnice (ce zelis nehati vpisi N): " % random_key)
     if vnos == "N":
         break
