@@ -18,7 +18,7 @@ def main():
             for i in artikli:
                 print i
         else:
-            print izpis(vnos)
+            print "Cena je: "+ str(izpis(vnos)) + " EUR"
 
 
 
