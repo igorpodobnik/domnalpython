@@ -31,17 +31,17 @@ while pogoj == "d":
         if operacija in izbire:
             break
         else:
-            operacija = raw_input("Dej dej, se enkrat probaj, V, R, P ali D: ")
+            operacija = raw_input("Dej dej, se enkrat probaj, +, -, * ali %: ")
 
 
 
-    if operacija == "r":
+    if operacija == "-":
         rezultat =  x - y
-    elif operacija == "v":
+    elif operacija == "+":
         rezultat = x + y
-    elif operacija == "p":
+    elif operacija == "*":
         rezultat = x * y
-    elif operacija == "d":
+    elif operacija == "%":
         # DODAJ CE JE NICLA
         x = x + 0.0
         y = y + 0.0
