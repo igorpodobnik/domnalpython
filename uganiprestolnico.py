@@ -219,7 +219,7 @@ while 1==1:
         rezultat +=1
     else:
         falil +=1
-        print ("Nope, napacno!")
+        print ("Nope, napacno! Pravilni odgovor je --- %s ---" % prestolnice[random_key])
 
 print("Konec igre")
 skup = falil + rezultat + goljuf

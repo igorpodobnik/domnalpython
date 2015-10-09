@@ -51,24 +51,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vreme.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vreme.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vreme.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7105263">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="git.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/git.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -93,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uganiprestolnico.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="uganiprestolnico.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uganiprestolnico.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.5263158">
+              <caret line="216" column="41" selection-start-line="216" selection-start-column="41" selection-end-line="216" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -124,8 +114,8 @@
         <option value="$PROJECT_DIR$/sopinglistek.py" />
         <option value="$PROJECT_DIR$/f" />
         <option value="$PROJECT_DIR$/r.py" />
-        <option value="$PROJECT_DIR$/uganiprestolnico.py" />
         <option value="$PROJECT_DIR$/vreme.py" />
+        <option value="$PROJECT_DIR$/uganiprestolnico.py" />
       </list>
     </option>
   </component>
@@ -198,7 +188,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.vreme">
+  <component name="RunManager" selected="Python.uganiprestolnico">
     <configuration default="false" name="clear" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,9 +405,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.vreme" />
-        <item index="1" class="java.lang.String" itemvalue="Python.r" />
-        <item index="2" class="java.lang.String" itemvalue="Python.uganiprestolnico" />
+        <item index="0" class="java.lang.String" itemvalue="Python.uganiprestolnico" />
+        <item index="1" class="java.lang.String" itemvalue="Python.vreme" />
+        <item index="2" class="java.lang.String" itemvalue="Python.r" />
         <item index="3" class="java.lang.String" itemvalue="Python.sopinglistek" />
         <item index="4" class="java.lang.String" itemvalue="Python.clear" />
       </list>
@@ -545,14 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -576,6 +558,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/f">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9868421">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuzzbizz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078947365">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vreme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/uganistevilko.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -592,36 +607,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/f">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9868421">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uganiprestolnico.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.5263158">
+          <caret line="216" column="41" selection-start-line="216" selection-start-column="41" selection-end-line="216" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fuzzbizz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vreme.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7105263">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
