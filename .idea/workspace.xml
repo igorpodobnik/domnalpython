@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delez.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delez.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/delez.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7236842">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sopinglistek.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sopinglistek.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sopinglistek.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.35526314">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -121,7 +121,6 @@
         <option value="$PROJECT_DIR$/uganistevilko.py" />
         <option value="$PROJECT_DIR$/fuzzbizz.py" />
         <option value="$PROJECT_DIR$/clear.py" />
-        <option value="$PROJECT_DIR$/sopinglistek.py" />
         <option value="$PROJECT_DIR$/f" />
         <option value="$PROJECT_DIR$/r.py" />
         <option value="$PROJECT_DIR$/vreme.py" />
@@ -133,6 +132,7 @@
         <option value="$PROJECT_DIR$/uganiprestolnico.py" />
         <option value="$PROJECT_DIR$/funkcijaprestolnica.py" />
         <option value="$PROJECT_DIR$/testi.py" />
+        <option value="$PROJECT_DIR$/sopinglistek.py" />
       </list>
     </option>
   </component>
@@ -674,26 +674,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sopinglistek.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uganiprestolnico.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="215" column="15" selection-start-line="215" selection-start-column="15" selection-end-line="215" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eblagajna.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="25" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -726,8 +710,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/delez.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7236842">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eblagajna.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sopinglistek.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35526314">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding />
         </state>
       </provider>

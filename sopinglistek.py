@@ -5,11 +5,9 @@ import os
 list = []
 i=0
 hoces = raw_input("Zelite kaj vnesti? D za Da: ").lower()
-if hoces == "d":
-    i = 1
-else:
+if hoces != "d":
     print("Pa nic...")
-while i == 1:
+while hoces == "d":
     vnos = raw_input("Vnesi prvo stvar za nakupovalni seznam: ")
     list.append(vnos)
     pogoj = raw_input("Ce zelite nadaljevati pritisnite D: ").lower()
