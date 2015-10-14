@@ -199,28 +199,45 @@ prestolnice = {
 "Zdruzene drzave Amerike" : "Washington DC"
 }
 random.choice(prestolnice.keys())
-#print prestolnice
-rezultat = 0
-goljuf = 0
-falil = 0
-while 1==1:
-    random_key = random.sample(prestolnice, 1)[0]
-    #print random_key
-    #print prestolnice[random_key]
-    vnos = raw_input("Vnesti prestolnico od -- %s --, pazi na velike zacetnice (ce zelis nehati vpisi N): " % random_key)
-    if vnos == "N":
-        break
-    elif vnos == "h":
-        goljuf +=1
-        print prestolnice[random_key]
-        vnos = raw_input("No skopiraj videno za %s, pazi na velike zacetnice: " % random_key)
-    elif vnos == prestolnice[random_key]:
-        print("Pravilna izbira!")
-        rezultat +=1
-    else:
-        falil +=1
-        print ("Nope, napacno! Pravilni odgovor je --- %s ---" % prestolnice[random_key])
 
-print("Konec igre")
-skup = falil + rezultat + goljuf
-print "Uganili ste " + str(rezultat) + " od " + str(skup) + " iger"
+
+
+#print prestolnice
+
+def par(drzava):
+    prestol = prestolnice[drzava]
+    return prestol
+
+def main():
+    rezultat = 0
+    goljuf = 0
+    falil = 0
+
+    while 1==1:
+        random_key = random.sample(prestolnice, 1)[0]
+        #print random_key
+        #print prestolnice[random_key]
+        vnos = raw_input("Vnesti prestolnico od -- %s --, pazi na velike zacetnice (ce zelis nehati vpisi N): " % random_key)
+        if vnos == "N":
+            break
+        elif vnos == "h":
+            goljuf +=1
+            print prestolnice[random_key]
+            vnos = raw_input("No skopiraj videno za %s, pazi na velike zacetnice: " % random_key)
+        elif vnos == prestolnice[random_key]:
+            print("Pravilna izbira!")
+            rezultat +=1
+        else:
+            falil +=1
+            print ("Nope, napacno! Pravilni odgovor je --- %s ---" % prestolnice[random_key])
+
+    print("Konec igre")
+    skup = falil + rezultat + goljuf
+    print "Uganili ste " + str(rezultat) + " od " + str(skup) + " iger"
+
+
+
+
+
+if __name__ == "__main__":
+    main()

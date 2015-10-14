@@ -4,7 +4,7 @@ from eblagajna import izpis
 
 
 def procent():
-    assert razmerje(20,50) == 40
+    assert razmerje(30,120) == 25
     return "Razmerje OK"
 
 def prikaz():
