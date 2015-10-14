@@ -26,7 +26,7 @@ def main():
 
     print izracunajstevilke(skupnostevilo,steviloizzrebanih)
     Sloloto = izracunajstevilke (39,7)
-    EUROJACKPOT1 = izracunajstevilke(50,6)
+    EUROJACKPOT1 = izracunajstevilke(50,5)
     EUROJACKPOT2 = izracunajstevilke(10,2)
 
     print "Eurojackpot stevilke so: "+ str(EUROJACKPOT1) + "in dodatne " + str(EUROJACKPOT2)
