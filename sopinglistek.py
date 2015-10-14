@@ -8,10 +8,10 @@ hoces = raw_input("Zelite kaj vnesti? D za Da: ").lower()
 if hoces != "d":
     print("Pa nic...")
 while hoces == "d":
-    vnos = raw_input("Vnesi novo stvar za nakupovalni seznam (oz. p za prekinitev): ")
+    vnos = raw_input("Vnesi novo stvar za nakupovalni seznam (oz. stop za prekinitev): ")
 
     #pogoj = raw_input("Ce zelite nadaljevati pritisnite D: ").lower()
-    if vnos == "p":
+    if vnos == "stop":
         break
     soping_list.append(vnos)
 if hoces == "d":
