@@ -91,7 +91,7 @@ prestolnice = {
 "Singapur" : "Singapur",
 "Severna Koreja" : "Pjongjang",
 "Sirija" : "Damask",
-"srilanka" : "Colombo, Sri Jayawardenepura Kotte",
+"Srilanka" : "Colombo, Sri Jayawardenepura Kotte",
 "Tadzikistan" : "Dusanbej",
 "Tajska" : "Bangkok",
 "Tajvan" : "Tajpej",
@@ -109,8 +109,8 @@ prestolnice = {
 "Bolgarija" : "Sofija",
 "Hrvaska" : "Zagreb",
 "Ciper" : "Nikozija",
-"ceska" : "Praga",
-"crna gora" : "Podgorica",
+"Ceska" : "Praga",
+"Crna gora" : "Podgorica",
 "Danska" : "Kobenhavn",
 "Estonija" : "Talin",
 "Finska" : "Helsinki",
@@ -205,7 +205,12 @@ random.choice(prestolnice.keys())
 #print prestolnice
 
 def par(drzava):
-    prestol = prestolnice[drzava]
+    try:
+        prestol = prestolnice[drzava]
+    except KeyError:
+        prestol = "Narobe vpisana drzava, ali nesmiseln vnos ali pa si pozabil veliko zacetnico"
+
+
     return prestol
 
 def main():
