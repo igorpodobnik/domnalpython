@@ -3,12 +3,12 @@ from delez import razmerje
 from eblagajna import izpis
 
 
-def procent():
+def razmerjemladihinvseh():
     assert razmerje(30,120) == 25
     return "Razmerje OK"
 
-def prikaz():
+def cenaartiklamoraobstajati():
     assert izpis("mleko")== 1
     return "Prikaz OK"
-print procent()
-print prikaz()
+print razmerjemladihinvseh()
+print cenaartiklamoraobstajati()
