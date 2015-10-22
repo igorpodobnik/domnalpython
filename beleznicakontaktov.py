@@ -13,34 +13,44 @@ class kontakt():
         self.email = e_mail
         self.phone = stevilka
         self.adress = naslov
+    def __str__(self):
+		return "Ha %s %s %s %s %s" % (self.first_name,self.last_name,self.email,self.phone,self.adress)
+    def __repr__(self):
+        return "Ha %s %s %s %s %s" % (self.first_name,self.last_name,self.email,self.phone,self.adress)
+
+pogoj = "da"
+Imenik = []
+for i in range(0,255):
+    pogoj=raw_input("Vpisite Da za vnos v koledar: ").lower()
+    print pogoj
+    print i
+    if pogoj != "da":
+        break
+    #else:
+        #print "dal si DA"
+    ime=raw_input("Vpisi ime: ")
+    priimek=raw_input("Vpisi priimek: ")
+    mejl=raw_input("Vpisi email: ")
+    tel=raw_input("Vpisi telefonsko: ")
+    nasl=raw_input("Vpisi naslov:")
+    #print ime
+    prviime = kontakt(ime,priimek,mejl,tel,nasl)
+    #print prviime
+    #print (prviime.first_name)
+    Imenik.append(prviime)
+
+print Imenik
+for i in Imenik:
+    print i
 
 
-def main():
-    pogoj = "da"
-    Imenik = []
-    for i in range(0,255):
-        pogoj=raw_input("Vpisite Da za vnos v koledar: ").lower()
-        print pogoj
-        print i
-        if pogoj != "da":
-            break
-        #else:
-            #print "dal si DA"
-        ime=raw_input("Vpisi ime: ")
-        print ime
-        Imenik.append(kontakt(ime,"0","0","0","0"))
 
-"""    prvi = kontakt("Igor","Podobnik","igor@igor.si","0044","Chengdujska")
+
+
+""" prvi = kontakt("Igor","Podobnik","igor@igor.si","0044","Chengdujska")
     print "haha"
     print prvi
     print prvi.first_name
     print prvi.last_name
     print ("%s in %s" % (prvi.first_name,prvi.last_name))
-    print "end"     """
-    #print Imenik
-    for i in Imenik:
-        print i.first_name
-
-
-if __name__ == "__main__":
-    main()
+    print "end"  """
