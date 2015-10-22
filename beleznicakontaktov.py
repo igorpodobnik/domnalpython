@@ -23,8 +23,8 @@ pogoj = "da"
 Imenik = []
 for i in range(0,255):
     pogoj=raw_input("Vpisite Da za vnos v koledar: ").lower()
-    print pogoj
-    print i
+    #print pogoj
+    #print i
     if pogoj != "da":
         break
     #else:
@@ -47,11 +47,3 @@ for i in Imenik:
 
 
 
-
-""" prvi = kontakt("Igor","Podobnik","igor@igor.si","0044","Chengdujska")
-    print "haha"
-    print prvi
-    print prvi.first_name
-    print prvi.last_name
-    print ("%s in %s" % (prvi.first_name,prvi.last_name))
-    print "end"  """
