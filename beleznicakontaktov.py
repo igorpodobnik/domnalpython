@@ -17,6 +17,7 @@ class kontakt():
 		return "Ha %s %s %s %s %s" % (self.first_name,self.last_name,self.email,self.phone,self.adress)
     def __repr__(self):
         return "Ha %s %s %s %s %s" % (self.first_name,self.last_name,self.email,self.phone,self.adress)
+    #http://www.bogotobogo.com/python/python_classes_instances.php
 
 pogoj = "da"
 Imenik = []
