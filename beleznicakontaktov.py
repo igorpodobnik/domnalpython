@@ -14,12 +14,7 @@ class kontakt():
         self.email = e_mail
         self.phone = stevilka
         self.adress = naslov
-        self.full_name = ime + " " + priimek
-    #PREVERI ker ne dela ok.
-    def fulln(self):
-        full_name = self.first_name + " " + self.last_name
-        print full_name
-        return full_name
+
     def __str__(self):
         return "HM %s %s %s %s %s " % (self.first_name, self.last_name, self.email, self.phone, self.adress)
 
@@ -52,4 +47,4 @@ for i in range(0, 255):
 print Imenik
 for i in Imenik:
     print "Ime: " + i.first_name + " " + i.last_name
-    print i.fulln
+
