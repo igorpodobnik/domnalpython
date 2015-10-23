@@ -1,4 +1,5 @@
 __author__ = 'igorpodobnik'
+from operator import itemgetter, attrgetter, methodcaller
 
 
 class kontakt():
@@ -26,7 +27,11 @@ class kontakt():
     def fullname(self):
         name = self.first_name + " " + self.last_name
         return name
-
+    """def __cmp__(self, other):
+        if hasattr(other, self.last_name):
+            return self.last_name.__cmp__(other.last_name)"""
+    def getKey(self):
+        return self.last_name
 
 
 Imenik = []
@@ -48,12 +53,16 @@ for i in range(1, 256):
     #print prviime.fullname()
     # print (prviime.first_name)
     Imenik.append(prviime)
-
+#Dodaj sortiranje
+Imenik = sorted(Imenik, key=lambda kontakt:kontakt.last_name)
 print Imenik
+cifra = 0
 for i in Imenik:
+    cifra +=1
     #print "Ime: " + str(i.first_name) + " " + str(i.last_name) + " == " + str(i.fullname())
     print "\n"
-    print "Pozicija v imeniku:  " + str(i.pozicija)
+    print "Pozicija v imeniku:  " + str(cifra)
+    print "Zaporedna stevilka:  " + str(i.pozicija)
     print "Polno ime:           " + str(i.fullname())
     print "Email naslov:        " + str(i.email)
     print "Telefonska stevilka: " + str(i.phone)
